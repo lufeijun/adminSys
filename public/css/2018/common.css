@@ -1,0 +1,169 @@
+.content {
+  overflow-x: auto;
+}
+.personal-setting:hover {
+  background-color: #3c8dbc;
+  color: #ffffff;
+  cursor: pointer;
+}
+.breadcrumb {
+  background-color: #f8f8f8;
+}
+.breadcrumb>li+li:before {
+  content: none;
+}
+.breadcrumb>li .arrow {
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+}
+.my-container {
+  width: 970px;
+  margin: 0 auto;
+}
+a:hover {
+  cursor: pointer;
+}
+.table>tbody>tr:hover {
+   background-color:rgba(208,208,208,0.5);
+}
+tr {
+  /*border-bottom: 2px rgba(208,208,208,0.5) solid;*/
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.5em;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+.sidebar-menu li>a>.fa-angle-left, .sidebar-menu li>a>.pull-right-container>.fa-angle-left {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    transform: rotate(-180deg);
+}
+.bootstrap-dialog .modal-header {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#show-personal-information , #change-personal-password{
+  display: none;
+}
+.menu-image {
+  width: 18px;
+  margin-right: 5px;
+}
+.badge  {
+  padding: 1px 5px;
+}
+.skin-blue .main-header .navbar .nav>li>a {
+  height: 50px;
+  width: 56px;
+}
+.main-header .logo .logo-lg {
+  font-weight: 900;
+}
+.skin-blue .treeview-menu>li>a {
+  margin-left: 24px;
+}
+.skin-blue .treeview-menu>li>.active {
+  color: #ffffff;
+}
+.strong-bloder {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.badge {
+  background-color: rgb(127, 214, 125);
+  margin-bottom: 5px;
+}
+.no-message-remind {
+  text-align: center;
+  margin:25px 0 15px 0;
+  font-size: 18px;
+}
+.login-error-message {
+  color: #FF0000;
+  font-weight: bolder;
+  display: none;
+}
+#update-remind {
+  position: fixed;
+  left: 45%;
+  top: 10px;
+  line-height: 35px;
+  height: 35px;
+  min-width: 300px;
+  max-width: 800px;
+  background-color: #7fd67d;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  display: none;
+  padding: 0 15px;
+  z-index: 10000;
+}
+
+/* 固定到底部的按钮 */
+.form-btn {
+  text-align: center;
+  background-color: #f8f8f8;
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  width: 940px;
+  bottom: 0;
+  z-index: 1000;
+}
+.form-btn-shade {
+  text-align: center;
+  background-color: #f8f8f8;
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+  height: 70px;
+  margin-left: -20px;
+}
+.form-btn div {
+  font-weight: bolder;
+}
+.form-btn .btn-default,.form-btn .btn-info {
+  width: 350px;
+}
+.form-btn .btn-info {
+
+}
+
+.maybe-district {
+  position: absolute;
+  background-color: #ffffff;
+  width: 506px;
+  z-index: 10;
+  margin-top: 2px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+.maybe-district li {
+  padding-left: 15px;
+  line-height: 26px;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+.maybe-district li:hover , .maybe-district-selected {
+  color: #ffffff;
+  background-color: #3c8dbc;
+}
+
+.all-total {
+  display: inline-block;
+  position: absolute;
+  margin-top: 29px;
+  margin-left: -65px;
+  display: inline-block;
+}
