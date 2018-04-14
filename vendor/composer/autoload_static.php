@@ -332,6 +332,7 @@ class ComposerStaticInitab293bd22251c04a4ddcb0002401c6b4
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Api\\CommonController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/CommonController.php',
         'App\\Http\\Controllers\\Api\\Privilege\\Member\\V1\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Privilege/Member/V1/AuthController.php',
         'App\\Http\\Controllers\\Api\\Privilege\\Member\\V1\\MemberController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Privilege/Member/V1/MemberController.php',
         'App\\Http\\Controllers\\Api\\Privilege\\Role\\V1\\RoleController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Privilege/Role/V1/RoleController.php',
