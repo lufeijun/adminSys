@@ -14,5 +14,5 @@
 - 创建对应数据库。
 
 ## 截图展示
-<img src="https://github.com/lufeijun/adminSys/tree/master/public/img/2018/home.png">
-<img src="https://github.com/lufeijun/adminSys/tree/master/public/img/2018/role.png">
+<img src="https://github.com/lufeijun/adminSys/blob/master/public/img/2018/home.png">
+<img src="https://github.com/lufeijun/adminSys/blob/master/public/img/2018/role.png">
