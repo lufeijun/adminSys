@@ -11,7 +11,7 @@
 - 使用git克隆整个项目，并将bootstrap/cache/* ，storage/* 权限设置为777；
 - 执行php composer install，处理了依赖关系，下载相关安装包；
 - 在public目录下建立sys_images，并将权限赋为777。
-- 创建对应数据库。
+- 创建对应数据库。php artisan migrate
 
 ## 截图展示
 <img src="https://github.com/lufeijun/adminSys/blob/master/public/img/2018/home.png">
