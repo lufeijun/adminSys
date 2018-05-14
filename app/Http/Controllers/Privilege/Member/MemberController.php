@@ -13,6 +13,9 @@ class MemberController extends Controller
   //
   public function list(Request $request)
   {
+    // 检测权限
+    checkMenuGranted('权限,成员管理,成员列表','three',true);
+
     $name  = $request->get('name','');
     $phone = $request->get('phone','');
     $email = $request->get('email','');

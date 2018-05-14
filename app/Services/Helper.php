@@ -24,12 +24,32 @@ function getFirstMenuName()
  * 左侧分别为二级、三级权限
  * @param menu  对应菜单权限字符串
  * @param level 级别，值为 first、second、three
+ * @param enableJump 是否跳转到无权限提示页面
  */
-function checkMenuGranted($menu,$level)
+function checkMenuGranted($menu,$level,$enableJump = false)
 {
   $menuArr = getLoginedMessage('menu_'.$level.'_granted',[]);
-  return isset( $menuArr[$menu] );
+  $enable = isset( $menuArr[$menu] );
+  if ($enableJump && ! $enable) {
+    throw new \App\Exceptions\PrivilegeException("无操作权限");
+  }
+  return $enable;
 }
+
+/**
+ * 检测功能权限
+ *
+ * @param enableJump 是否跳转到无权限提示页面
+ */
+function checkActionGranted($action,$enableJump = false)
+{
+  $enable = in_array($action, getLoginedMessage('action_granted',[]));
+  if ($enableJump && ! $enable) {
+    throw new \App\Exceptions\PrivilegeException("无操作权限");
+  }
+  return $enable;
+}
+
 
 /**
  * 路由问题

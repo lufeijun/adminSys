@@ -14,7 +14,9 @@ class RoleController extends Controller
   //
   public function list(Request $request)
   {
-    $roles = Role::get();
+    checkMenuGranted('权限,角色管理,角色列表','three',true);
+
+    $roles = Role::orderBy('id','desc')->get();
     return view('privilege/role/list')
            ->withRoles($roles);
   }

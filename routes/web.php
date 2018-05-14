@@ -10,6 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/fuck', function () {
+  checkActionGranted(1,1);
+});
+
+// 错误提示连接
+Route::group(['prefix' => 'error','namespace'=>'Error'], function () {
+  Route::get('privilege', 'IndexController@privilege');
+});
 
 Route::get('/', function () {
   return redirect('admin');
