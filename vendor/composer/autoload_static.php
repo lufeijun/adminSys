@@ -332,6 +332,7 @@ class ComposerStaticInitab293bd22251c04a4ddcb0002401c6b4
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Exceptions\\PrivilegeException' => __DIR__ . '/../..' . '/app/Exceptions/PrivilegeException.php',
         'App\\Http\\Controllers\\Api\\CommonController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/CommonController.php',
         'App\\Http\\Controllers\\Api\\Privilege\\Member\\V1\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Privilege/Member/V1/AuthController.php',
         'App\\Http\\Controllers\\Api\\Privilege\\Member\\V1\\MemberController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Privilege/Member/V1/MemberController.php',
@@ -341,6 +342,7 @@ class ComposerStaticInitab293bd22251c04a4ddcb0002401c6b4
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\Error\\IndexController' => __DIR__ . '/../..' . '/app/Http/Controllers/Error/IndexController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\Privilege\\Member\\MemberController' => __DIR__ . '/../..' . '/app/Http/Controllers/Privilege/Member/MemberController.php',
         'App\\Http\\Controllers\\Privilege\\Role\\RoleController' => __DIR__ . '/../..' . '/app/Http/Controllers/Privilege/Role/RoleController.php',
@@ -3723,6 +3725,7 @@ class ComposerStaticInitab293bd22251c04a4ddcb0002401c6b4
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
+        'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',

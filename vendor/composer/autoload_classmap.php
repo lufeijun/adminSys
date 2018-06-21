@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Exceptions\\PrivilegeException' => $baseDir . '/app/Exceptions/PrivilegeException.php',
     'App\\Http\\Controllers\\Api\\CommonController' => $baseDir . '/app/Http/Controllers/Api/CommonController.php',
     'App\\Http\\Controllers\\Api\\Privilege\\Member\\V1\\AuthController' => $baseDir . '/app/Http/Controllers/Api/Privilege/Member/V1/AuthController.php',
     'App\\Http\\Controllers\\Api\\Privilege\\Member\\V1\\MemberController' => $baseDir . '/app/Http/Controllers/Api/Privilege/Member/V1/MemberController.php',
@@ -17,6 +18,7 @@ return array(
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\Error\\IndexController' => $baseDir . '/app/Http/Controllers/Error/IndexController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\Privilege\\Member\\MemberController' => $baseDir . '/app/Http/Controllers/Privilege/Member/MemberController.php',
     'App\\Http\\Controllers\\Privilege\\Role\\RoleController' => $baseDir . '/app/Http/Controllers/Privilege/Role/RoleController.php',
@@ -3399,6 +3401,7 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
     'TypeError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
+    'UsersTableSeeder' => $baseDir . '/database/seeds/UsersTableSeeder.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',
